@@ -1,0 +1,6 @@
+1. Install node.js
+2. Install typescript using this command
+    "npm install -g typescript"
+3. Create a TypeScript file and compile it using typescript compiler by following these steps:
+    > Open a terminal on the path of the typescript file
+    > 
