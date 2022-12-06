@@ -11,5 +11,3 @@ console.log("String Type : "+str);
 
 const truthyOrFalsyValue: boolean = false;
 console.log("Boolean Type: " + truthyOrFalsyValue);
-
-
