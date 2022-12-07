@@ -1,4 +1,4 @@
-import { Browser, chromium } from "playwright";
+import { chromium } from "playwright";
 
 describe("Sample run", () => {
     test("Open playwright", async () => {

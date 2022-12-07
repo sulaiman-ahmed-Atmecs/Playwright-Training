@@ -30,6 +30,7 @@
     "testTimeout": 200000
   },
   "scripts": {
-    "test": "jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles",
+    "day3": "jest"
   }
 }
