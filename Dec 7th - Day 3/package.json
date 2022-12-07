@@ -31,6 +31,6 @@
   },
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "day3": "jest"
+    "day3": "jest --detectOpenHandles"
   }
 }

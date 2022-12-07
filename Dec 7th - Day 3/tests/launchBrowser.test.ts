@@ -11,3 +11,5 @@ describe("Sample run", () => {
        await browser.close();
     });
 });
+
+// command to run this test case "npm run day3" or "npm test"
