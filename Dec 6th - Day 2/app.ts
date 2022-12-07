@@ -9,5 +9,12 @@ let str : string;
 str= "Hello World!";
 console.log("String Type : "+str);
 
+// Boolean type in typescript
 const truthyOrFalsyValue: boolean = false;
 console.log("Boolean Type: " + truthyOrFalsyValue);
+
+interface person {
+    name:string;
+    age:number;
+}
+
