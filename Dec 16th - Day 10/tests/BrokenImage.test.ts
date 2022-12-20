@@ -12,9 +12,9 @@ test.only("Test to check for broken images", async ({ page, request }) => {
         return imageURLs;
     });
     for await (const image of images) {
-
         const imageResult = await request.get(image);
-        if (imageResult.status() >= 200) {
+        if (imageResult.status() == 200) {
+            console.log(`${image} is valid.`);
             expect(imageResult.body).toBeTruthy();
         }
         else {
