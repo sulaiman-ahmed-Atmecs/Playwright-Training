@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "day8": "npx playwright test"
+    "test": "npx playwright test && npx playwright show-report",
+    "day8": "npx playwright test && npx playwright show-report"
   },
   "keywords": [],
   "author": "",
